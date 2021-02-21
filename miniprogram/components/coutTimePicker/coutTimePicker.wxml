@@ -1,0 +1,16 @@
+<!--components/coutTimePicker.wxml-->
+<view>
+  <text>日期选择</text>
+  <picker mode="date" value="{{date}}" start="2000-01-01" bindchange="dateBindChange">
+    <text>日期：{{date}}</text>
+  </picker>
+</view>
+<view>
+ <text>时间选择</text>
+ <picker mode="time" value="{{time}}" bindchange="timeBindChange">
+  <text>时间：{{time}}</text>
+ </picker>
+</view>
+
+
+

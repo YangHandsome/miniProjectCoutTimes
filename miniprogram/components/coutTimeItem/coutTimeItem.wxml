@@ -1,0 +1,11 @@
+<!--components/coutTimeItem.wxml-->
+
+<view class="countTimeBox">
+  
+  <view class="countTime-word">
+    <text>倒计时</text>
+  </view>
+  <view class="countTime-time">
+    <text>{{time}}</text>
+  </view>
+</view>

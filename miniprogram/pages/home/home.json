@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "countTimeItem":"../../components/coutTimeItem/coutTimeItem",
+    "countTimePicker":"../../components/coutTimePicker/coutTimePicker"
+  }
+}
